@@ -1,0 +1,37 @@
+# NOTE: PLACEHOLDER DATA ONLY. The shop owner must replace this with the authorized Asian Paints catalog CSV. Do not scrape asianpaints.com.
+brand,name,shade_code,hex,finish,color_family,price
+Asian Paints,Morning Glory,0942,#F4EBD9,Matte,Warm Neutral,450.0
+Asian Paints,Canvas Cream,L102,#F8F2E4,Eggshell,Warm Neutral,420.0
+Asian Paints,Magnolia White,0915,#FAF6EE,Sheen,Warm Neutral,480.0
+Asian Paints,Almond Frost,8472,#EFE5D5,Matte,Warm Neutral,430.0
+Asian Paints,Soft Silk,0951,#F3EEE3,Satin,Warm Neutral,510.0
+Asian Paints,Raw Jute,8529,#E3D5C0,Matte,Warm Neutral,460.0
+Asian Paints,Misty Grey,8297,#E0E2E1,Matte,Cool Neutral,440.0
+Asian Paints,Silver Trinket,8294,#C8CBCB,Eggshell,Cool Neutral,460.0
+Asian Paints,Steel Touch,8302,#9FA4A6,Sheen,Cool Neutral,490.0
+Asian Paints,Pebble Walk,8285,#D5D7D3,Matte,Cool Neutral,430.0
+Asian Paints,Urban Stone,8310,#7F8487,Matte,Cool Neutral,520.0
+Asian Paints,Sea Breeze,7348,#D0E8EB,Sheen,Cool Blue,480.0
+Asian Paints,Arabian Sea,7355,#9CC6CE,Matte,Cool Blue,500.0
+Asian Paints,Deep Ocean,7363,#417387,Satin,Cool Blue,550.0
+Asian Paints,Coastal Calm,7339,#BCE0E5,Eggshell,Cool Blue,470.0
+Asian Paints,Aqua Tint,7322,#DDF0F2,Matte,Cool Blue,450.0
+Asian Paints,Midnight Navy,7370,#1E3A52,Matte,Cool Blue,580.0
+Asian Paints,Olive Grove,7714,#8C936E,Matte,Earthy Green,510.0
+Asian Paints,Sage Whisper,7729,#C8D2BF,Sheen,Earthy Green,490.0
+Asian Paints,Mint Breeze,7742,#D8E5D7,Eggshell,Earthy Green,460.0
+Asian Paints,Pine Needle,7698,#4B5E43,Matte,Earthy Green,540.0
+Asian Paints,Forest Fern,7706,#6B8062,Satin,Earthy Green,530.0
+Asian Paints,Sunburst,7880,#FCE59F,Sheen,Warm Yellow,470.0
+Asian Paints,Golden Ochre,7895,#EDB858,Matte,Warm Yellow,500.0
+Asian Paints,Desert Sand,7912,#DEC69A,Eggshell,Warm Yellow,450.0
+Asian Paints,Honey Gold,7889,#F5D17A,Satin,Warm Yellow,490.0
+Asian Paints,Terracotta Glow,0512,#C96849,Matte,Terracotta & Red,530.0
+Asian Paints,Spiced Clay,0520,#AC543B,Matte,Terracotta & Red,540.0
+Asian Paints,Jaipur Pink,0428,#E8A598,Sheen,Terracotta & Red,510.0
+Asian Paints,Dusty Rose,0415,#E5BAC0,Eggshell,Terracotta & Red,480.0
+Asian Paints,Lavender Mist,7121,#E2DEEC,Sheen,Purple & Lilac,480.0
+Asian Paints,Twilight Haze,7135,#B4ABC8,Matte,Purple & Lilac,510.0
+Asian Paints,Royal Plum,7148,#6A4C73,Satin,Purple & Lilac,560.0
+Asian Paints,Marigold Spark,7905,#F4A836,Gloss,Warm Yellow,520.0
+Asian Paints,Burnt Umber,0535,#854432,Matte,Terracotta & Red,550.0

@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --background: #090a0f;
+  --foreground: #f4f4f8;
+  --accent: #f97316;
+  --accent-light: #fb923c;
+  --accent-glow: rgba(249, 115, 22, 0.18);
+  --card-bg: rgba(18, 19, 27, 0.75);
+  --card-border: rgba(255, 255, 255, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-outfit), var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-outfit), var(--font-space-grotesk), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+body {
+  background-color: #090a0f;
+  color: #f1f1f6;
+  font-family: var(--font-outfit), var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.5);
+}
+
+/* Clean Modern Frosted Glass Panels */
+.glass-panel,
+.obsidian-panel {
+  background: rgba(18, 20, 29, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.glass-panel-glow,
+.obsidian-panel-glow {
+  background: radial-gradient(circle at top left, rgba(30, 24, 28, 0.85), rgba(15, 17, 24, 0.92) 80%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(249, 115, 22, 0.22);
+  box-shadow: 
+    0 20px 45px -10px rgba(0, 0, 0, 0.55),
+    0 0 30px -5px rgba(249, 115, 22, 0.1);
+}
+
+.glass-panel-interactive,
+.obsidian-panel-interactive {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-interactive:hover,
+.obsidian-panel-interactive:hover {
+  border-color: rgba(249, 115, 22, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 20px 40px -10px rgba(0, 0, 0, 0.65),
+    0 0 25px -5px rgba(249, 115, 22, 0.15);
+}
+
+/* Subtle, refined typography gradients */
+.text-brand-gradient,
+.text-magma-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #fed7aa 50%, #f97316 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Premium Primary Action Button */
+.btn-primary,
+.btn-magma {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  color: white;
+  box-shadow: 0 4px 18px rgba(234, 88, 12, 0.32);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-primary:hover,
+.btn-magma:hover {
+  background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+  box-shadow: 0 6px 24px rgba(234, 88, 12, 0.48);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active,
+.btn-magma:active {
+  transform: translateY(0);
+}
+
+/* Clean secondary button */
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f1f1f6;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}

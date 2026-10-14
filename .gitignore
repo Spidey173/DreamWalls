@@ -1,0 +1,48 @@
+# Environment & Secrets (NEVER COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+paintmywall.db
+
+# Large Model Binaries (auto-downloaded via scripts/download_model.py)
+backend/models/*.onnx
+*.onnx
+
+# Dynamic User Uploads & Mask Cache
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/
+test_photos/results/benchmark_session/
+
+# Node & Next.js
+frontend/node_modules/
+node_modules/
+frontend/.next/
+.next/
+frontend/out/
+out/
+.vercel/
+
+# OS specific
+.DS_Store
+Thumbs.db
